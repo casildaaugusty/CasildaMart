@@ -8,14 +8,14 @@ public class LoginPage extends JFrame {
 
     public LoginPage() {
 
-        setTitle("DhanyaMart - Login");
+        setTitle("CASILDAMart - Login");
         setSize(400, 300);
         setLayout(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
         // Title
-        JLabel title = new JLabel("DHANYAMART");
+        JLabel title = new JLabel("CASILDAMART");
         title.setFont(new Font("Arial", Font.BOLD, 24));
         title.setBounds(110, 20, 200, 40);
         add(title);
@@ -74,7 +74,7 @@ public class LoginPage extends JFrame {
         if (username.equals("admin") && password.equals("1234")) {
             JOptionPane.showMessageDialog(
                 this,
-                "Login Successful!\nWelcome to DhanyaMart."
+                "Login Successful!\nWelcome to CasildaMart."
             );
         } else {
             JOptionPane.showMessageDialog(
